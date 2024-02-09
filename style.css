@@ -1,0 +1,247 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+p {
+    color : #CCCCCC;
+}
+a {
+    text-decoration: none;
+    color : #FFFFFF;
+}
+#taskBar {
+    background-color: #0F1111;
+    display : flex;
+    flex-direction  :row;
+    height : 50px;
+    justify-content: left;
+    padding : 10px;
+}
+#amazonLogo {
+    margin-right : 10px;
+}
+#amazonLogo:hover {
+    border: 2px solid white;
+}
+#locationLogo {
+    margin-left : 10px;
+}
+#enterLocation {
+    margin-right : 10px;
+    margin-top : 5px;
+    font-size : 18px;
+    color : #FFFFFF;
+}
+#location {
+    display : flex;
+    flex-direction : row;
+    justify-content: left;
+}
+#location:hover {
+    border : 2px solid white;
+}
+#options {
+    margin-left : 10px;
+    margin-top : 5px;
+    height : 45px;
+    width : 59px;
+    background-color: #E6E6E6;
+    border-radius: 10%;
+    padding : 10px;
+    margin-right :0 ;
+}
+#search {
+    background-color: #FFFFFF;
+    padding : 5px;
+    margin-top : 4px;
+    height : 31px;
+    margin-left : 0;
+    width : 650px;
+}
+#finder {
+    padding : 8px;
+    background-color: rgb(255, 174, 0);
+    margin-top : 4px;
+    margin-right : 15px;
+}
+#accounts {
+    margin-left : 10px;
+    font-size : 20px;
+    margin-top : 2px;
+    margin-right : 15px;
+}
+#accounts:hover {
+    border : 2px solid white;
+}
+#orders {
+    font-size : 20px;
+    margin-left : 10px;
+    margin-top : 2px;
+}
+#orders:hover {
+    border : 2px solid white;
+}
+#cart {
+    margin-top : 5px;
+    margin-left : 30px;
+}
+#cart:hover {
+    border : 2px solid white;
+}
+#navBar {
+    display : flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color : #222f3d;
+    height : 40px;
+}
+#menu {
+    font-size : 20px;
+    display :flex;
+    flex-direction : row;
+    justify-content: left;
+    color : #FFFFFF;
+    font-size : 20px;
+    margin-top : 8px;
+}
+#menu:hover {
+    border : 2px solid white;
+}
+#deals {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#deals:hover {
+    border : 2px solid white;
+}
+#service {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#service:hover {
+    border : 2px solid white;
+}
+#registry {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#registry:hover {
+    border : 2px solid white;
+}
+#gift {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#gift:hover {
+    border : 2px solid white;
+}
+#sell {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#sell:hover {
+    border : 2px solid white;
+}
+#photo1 {
+    height : 250px;
+    background-image: url("images/amazon_top.png");
+    background-size: cover;
+}
+#info {
+    position : relative;
+    display : flex;
+    justify-content: center;
+    background-color: #F5F6F6;
+}
+#indiansite {
+    color : orangered;
+}
+#photo2 {
+    height : 400px;
+    background-image : url("images/amazon-bottom.png");
+    background-size: cover;
+}
+#footer {
+    height : 400px;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    background-color: #233F3E;
+}
+#know {
+    font-size : 25px;
+    color : #FFFFFF;
+}
+#knowUs {
+    display : flex;
+    flex-direction: column;
+    text-align: initial;
+}
+#money {
+    font-size : 25px;
+    color : #FFFFFF;
+}
+#makeMoney {
+    display : flex;
+    flex-direction: column;
+    text-align: initial;
+}
+#payment {
+    display : flex;
+    flex-direction: column;
+    text-align: initial;
+}
+#pay {
+    font-size : 25px;
+    color : #FFFFFF;
+}
+#amazonHelp {
+    font-size : 25px;
+    color : #FFFFFF;
+}
+#help {
+    display : flex;
+    flex-direction: column;
+    text-align: initial;
+}
+#backToTop {
+    height : 20px;
+    background-color: #222f3d;
+    text-align: center;
+    padding : 15px;
+    text-decoration: underline;
+    border : 0.5px solid white;
+}
+#last {
+    height : 70px;
+    background-color: #222f3d;
+    display: flex;
+    flex-direction : row;
+    justify-content: left;
+}
+#lastimage1 {
+    margin-left : 400px;
+    margin-top: 25px;;
+}
+#lang {
+    height : 30px;
+    margin-left : 100px;
+    border : 2px solid white;
+    background-color: #222f3d;
+    color : #FFFFFF;
+    margin-top : 25px;
+    padding-left : 30px;
+    padding-right : 20px;
+    font-size : 20px;
+}
+#curr {
+    height : 30px;
+    margin-left : 100px;
+    border : 2px solid white;
+    background-color: #222f3d;
+    color : #FFFFFF;
+    margin-top : 25px;
+    padding-left : 30px;
+    padding-right : 20px;
+    font-size : 20px;
+}
